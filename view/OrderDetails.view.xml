@@ -1,0 +1,13 @@
+<mvc:View
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="kirill.cherkalov.app.controller.OrderDetails">
+
+	<Page title="OrderDetails">
+		<content>
+            <Button text="Prev page" press="onPrevPage" />
+			<Button text="Next page" press="onNextPage" />
+		</content>
+	</Page>
+
+</mvc:View>
